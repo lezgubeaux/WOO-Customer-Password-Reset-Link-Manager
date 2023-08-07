@@ -8,8 +8,8 @@
  * @link       https://framework.tech
  * @since      1.0.0
  *
- * @package    Woo_Customer_Password_Reset_Link_Manager
- * @subpackage Woo_Customer_Password_Reset_Link_Manager/public/partials
+ * @package    Cprlm_Lite
+ * @subpackage Cprlm_Lite/public/partials
  */
 ?>
 

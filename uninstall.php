@@ -22,7 +22,7 @@
  * @link       https://framework.tech
  * @since      1.0.0
  *
- * @package    Woo_Customer_Password_Reset_Link_Manager
+ * @package    Cprlm_Lite
  */
 
 // If uninstall not called from WordPress, then exit.

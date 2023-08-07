@@ -9,8 +9,8 @@
  * @link       https://framework.tech
  * @since      1.0.0
  *
- * @package    Woo_Customer_Password_Reset_Link_Manager
- * @subpackage Woo_Customer_Password_Reset_Link_Manager/includes
+ * @package    Cprlm_Lite
+ * @subpackage Cprlm_Lite/includes
  */
 
 /**
@@ -20,11 +20,12 @@
  * so that it is ready for translation.
  *
  * @since      1.0.0
- * @package    Woo_Customer_Password_Reset_Link_Manager
- * @subpackage Woo_Customer_Password_Reset_Link_Manager/includes
+ * @package    Cprlm_Lite
+ * @subpackage Cprlm_Lite/includes
  * @author     Vladimir Eric <vladimir@framework.tech>
  */
-class Woo_Customer_Password_Reset_Link_Manager_i18n {
+class Cprlm_Lite_i18n
+{
 
 
 	/**
@@ -32,16 +33,13 @@ class Woo_Customer_Password_Reset_Link_Manager_i18n {
 	 *
 	 * @since    1.0.0
 	 */
-	public function load_plugin_textdomain() {
+	public function load_plugin_textdomain()
+	{
 
 		load_plugin_textdomain(
-			'woo-customer-password-reset-link-manager',
+			'woo-cprlm-lite',
 			false,
-			dirname( dirname( plugin_basename( __FILE__ ) ) ) . '/languages/'
+			dirname(dirname(plugin_basename(__FILE__))) . '/languages/'
 		);
-
 	}
-
-
-
 }

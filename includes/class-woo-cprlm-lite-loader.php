@@ -6,8 +6,8 @@
  * @link       https://framework.tech
  * @since      1.0.0
  *
- * @package    Woo_Customer_Password_Reset_Link_Manager
- * @subpackage Woo_Customer_Password_Reset_Link_Manager/includes
+ * @package    Cprlm_Lite
+ * @subpackage Cprlm_Lite/includes
  */
 
 /**
@@ -17,11 +17,11 @@
  * the plugin, and register them with the WordPress API. Call the
  * run function to execute the list of actions and filters.
  *
- * @package    Woo_Customer_Password_Reset_Link_Manager
- * @subpackage Woo_Customer_Password_Reset_Link_Manager/includes
+ * @package    Cprlm_Lite
+ * @subpackage Cprlm_Lite/includes
  * @author     Vladimir Eric <vladimir@framework.tech>
  */
-class Woo_Customer_Password_Reset_Link_Manager_Loader {
+class Cprlm_Lite_Loader {
 
 	/**
 	 * The array of actions registered with WordPress.

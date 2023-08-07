@@ -6,8 +6,8 @@
  * @link       https://framework.tech
  * @since      1.0.0
  *
- * @package    Woo_Customer_Password_Reset_Link_Manager
- * @subpackage Woo_Customer_Password_Reset_Link_Manager/includes
+ * @package    Cprlm_Lite
+ * @subpackage Cprlm_Lite/includes
  */
 
 /**
@@ -16,11 +16,11 @@
  * This class defines all code necessary to run during the plugin's deactivation.
  *
  * @since      1.0.0
- * @package    Woo_Customer_Password_Reset_Link_Manager
- * @subpackage Woo_Customer_Password_Reset_Link_Manager/includes
+ * @package    Cprlm_Lite
+ * @subpackage Cprlm_Lite/includes
  * @author     Vladimir Eric <vladimir@framework.tech>
  */
-class Woo_Customer_Password_Reset_Link_Manager_Deactivator {
+class Cprlm_Lite_Deactivator {
 
 	/**
 	 * Short Description. (use period)
